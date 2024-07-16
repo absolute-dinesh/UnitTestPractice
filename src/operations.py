@@ -14,3 +14,8 @@ class Operations:
         self.value = self.summation() + increment
         return self.value
     
+    def division(self):
+        if self.num2 == 0 :
+            raise ValueError('Zero in the denom')
+        return self.num1/self.num2
+    
